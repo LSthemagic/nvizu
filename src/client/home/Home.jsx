@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="home">
             <video
-                src="../../../public/background.mp4"
+                src="/background.mp4"
                 loop
                 autoPlay
                 muted
@@ -17,7 +17,7 @@ const Home = () => {
                     <nav>
                         <img
                             className="m-3 mb-5 mt-0"
-                            src="../../../public/NVIZU.png"
+                            src="/NVIZU.png"
                         >
 
                         </img>
