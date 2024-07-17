@@ -17,9 +17,10 @@
 
 .home-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Use 100vh para ocupar toda a altura da viewport */
+  height: 100%; /* Use 100vh para ocupar toda a altura da viewport */
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -28,11 +29,11 @@
 .content {
   color: white;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
-  max-width: 80%; /* Para garantir que o conteúdo seja responsivo */
+  max-width: 90%; /* Para garantir que o conteúdo seja responsivo */
 }
+
 
 h1 {
   margin: 0;
