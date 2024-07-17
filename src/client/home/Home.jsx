@@ -9,7 +9,7 @@ const Home = () => {
                 autoPlay
                 muted
                 playsInline
-                className="background-video"
+                className="background-video opacity-50"
             ></video>
 
             <div className="home-content gap-7">
