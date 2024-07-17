@@ -12,7 +12,7 @@ const Home = () => {
                 className="background-video"
             ></video>
 
-            <div className="home-content">
+            <div className="home-content gap-7">
                 <nav>
                     <img
                         src="/logo2.png"
@@ -20,7 +20,7 @@ const Home = () => {
                         alt="Logo"
                     />
                 </nav>
-                <div className="content p-10">
+                <div className="content p-10 mt-28">
                     <section className="grid grid-cols-1 gap-2 text-justify w-full">
                         <a
                             className="flex flex-row gap-5 p-3 pl-10 pr-10 rounded-lg items-center bg-primary text-white hover:scale-105 hover:text-secondary"
